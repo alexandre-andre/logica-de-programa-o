@@ -47,4 +47,16 @@ function supermercado2(array){
     return soma;
 }
 
-console.log(supermercado2([2, 0, 0, 2]))
+let test_cases = [[0, 0, 0], [0, 2, 0, 0, 2], [7, 8, 0 , 9 , 0 , 2, 3, 0 , 7]]
+let results = [0,2,16]
+
+for (let i = 0 ; i < test_cases.length; i += 1){
+    let result = supermercado2(test_cases[i]);
+    console.log (result);
+    if (result != results[i]){
+        console.log("Deu erro no exemplo " + i);
+    }
+    else {
+        console.log("O exemplo " + i + " passou");
+    }
+}

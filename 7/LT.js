@@ -37,4 +37,20 @@ function get_prime_divisores(n){
     }
     return n;
 }
+
+let test_cases = [13195, 23217, 131]
+let results = [29,109,131]
+
+
+for (let i = 0 ; i < test_cases.length; i += 1){
+    let result = get_prime_divisores(test_cases[i]);
+    console.log (result);
+    if (result != results[i]){
+        console.log("Deu erro no exemplo " + i);
+    }
+    else {
+        console.log("O exemplo " + i + " passou");
+    }
+}
+
 console.log(get_prime_divisores(13195))

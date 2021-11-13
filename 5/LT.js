@@ -17,7 +17,7 @@ function fibonacci (x){
             ult = pult + aux;
         }
     }
-    console.log(soma);
+    return soma;
 }
 
 fibonacci(34);
@@ -37,4 +37,19 @@ function even_fibonacci_numbers(roof){
         i = i + 1;
     }
     console.log(sum);
+}
+
+let test_cases = [34, 45]
+let results = [10,44]
+
+
+for (let i = 0 ; i < test_cases.length; i += 1){
+    let result = fibonacci(test_cases[i]);
+    console.log (result);
+    if (result != results[i]){
+        console.log("Deu erro no exemplo " + i);
+    }
+    else {
+        console.log("O exemplo " + i + " passou");
+    }
 }

@@ -29,11 +29,27 @@ function multiples_of_3_or_5(roof) {
 	for (let i = 1; i < roof; i = i + 1){
 		if (i % 3 === 0 || i % 5 === 0) {
 			number = number + i;
-			console.log(number);
+			//console.log(number);
 			}
+		
 	}
-	
-return sum;
+	return number;
 }
+
+let test_cases = [11, 15, 16]
+let results = [33,45, 60]
+
+
+for (let i = 0 ; i < test_cases.length; i += 1){
+    let result = multiples_of_3_or_5(test_cases[i]);
+    console.log (result);
+    if (result != results[i]){
+        console.log("Deu erro no exemplo " + i);
+    }
+    else {
+        console.log("O exemplo " + i + " passou");
+    }
+}
+
 console.log(multiples_of_3_or_5(x));
 
