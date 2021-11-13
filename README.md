@@ -1,4 +1,4 @@
-# Apernder e Ensinar
+# Aprender e Ensinar
 
 Este repositório foi criado com a intenção de que todos possam aprender e desenvolver a lógica de programação.
 
