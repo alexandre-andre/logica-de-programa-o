@@ -1,0 +1,2 @@
+Entrada: 10
+Saída: 2640

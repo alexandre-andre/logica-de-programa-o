@@ -1,0 +1,9 @@
+Entrada: [0, 0, 0]
+Saída: 0
+
+Entrada [0, 2, 0, 0, 2]
+Saída: 2
+
+Entrada: [7, 8, 0 , 9 , 0 , 2, 3, 0 , 7]
+Saída: 16
+

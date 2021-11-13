@@ -1,0 +1,3 @@
+Entrada: 13195  Saída: 29
+Entrada: 23217  Saída : 109
+Entrada: 131    Saída: 131 
