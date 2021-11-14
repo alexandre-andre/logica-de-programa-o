@@ -50,6 +50,13 @@ function supermercado2(array){
 let test_cases = [[0, 0, 0], [0, 2, 0, 0, 2], [7, 8, 0 , 9 , 0 , 2, 3, 0 , 7]]
 let results = [0,2,16]
 
+let teste = [];
+
+for (let i = 0; i < 10000000;i++){
+    teste.push(i);
+}
+
+/*
 for (let i = 0 ; i < test_cases.length; i += 1){
     let result = supermercado2(test_cases[i]);
     console.log (result);
@@ -60,3 +67,6 @@ for (let i = 0 ; i < test_cases.length; i += 1){
         console.log("O exemplo " + i + " passou");
     }
 }
+*/
+console.log(supermercado1(teste));
+//console.log(supermercado2(teste));
