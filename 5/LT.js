@@ -28,13 +28,12 @@ function even_fibonacci_numbers(roof){
     var fibonacci = [1, 2, 3];
     var sum = 2;
     var i = 2;
-    for( ;fibonacci[i] < roof; ){
+    for( ;fibonacci[i] < roof; i = i + 1 ){
         let novo = fibonacci[i] + fibonacci[i-1];
         fibonacci.push(novo);
         if(fibonacci[i] % 2 === 0){
             sum = sum + fibonacci[i];
         }
-        i = i + 1;
     }
     console.log(sum);
 }

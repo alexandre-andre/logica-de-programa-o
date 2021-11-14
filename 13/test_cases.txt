@@ -1,0 +1,12 @@
+Entrada: 25
+Saída: 6
+
+Entrada: 26
+Saída: 3
+
+Entrada: 27
+Saída: 1
+
+Entrada: 28
+Saída: 0
+
